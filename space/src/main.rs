@@ -232,7 +232,18 @@ impl Star {
     }
 }
 
-#[macroquad::main("Planetary System Explorer")]
+fn window_conf() -> Conf {
+    Conf {
+        window_title: "pablo's space".to_owned(),
+        window_width: 1280,
+        window_height: 720,
+        window_resizable: true,
+        icon: None,
+        ..Default::default()
+    }
+}
+
+#[macroquad::main(window_conf)]
 async fn main() {
     // Inicializar planetas
     let mut celestial_objects = vec![
