@@ -2,9 +2,11 @@
  ## usar el contenido de la carpeta space
 
 ## 🚀 Cómo Ejecutar
+## video : https://youtu.be/MjtrCSL7b04
 
 ### Requisitos Previos
 - Instalar Rust: https://www.rust-lang.org/tools/install
+  
 
 ### Ejecutar la Simulación
 
